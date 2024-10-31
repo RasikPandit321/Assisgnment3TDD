@@ -33,5 +33,10 @@ const char* winner(const char* Player1, const char* Player2)
 	{
 		return"Draw";
 	}
+	//code to check if Player1 chooses Scissors and Player2 chooses Rock then Player2 will win
+	if (strcmp(Player1, "Scissors") == 0 && strcmp(Player2, "Rock") == 0)
+	{
+		return"Player2 won the match";
+	}
 	
 }  
