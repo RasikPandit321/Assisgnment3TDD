@@ -47,6 +47,6 @@ const char* winner(const char* Player1, const char* Player2)
 	if (strcmp(Player1, "Paper") == 0 && strcmp(Player2, "Paper") == 0)
 	{
 		return"Draw";
-	}
+	} 
 
-}
+}  aa 
